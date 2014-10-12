@@ -11,15 +11,12 @@
 
     <com.viewpagerindicator.CirclePageIndicator
         android:id="@+id/indicator"
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBottom="@id/pager"
-        android:background="#FFCCCCCC"
+        android:layout_alignRight="@id/pager"
         android:padding="10dip"
-        app:fillColor="#FF888888"
-        app:pageColor="#88FF0000"
         app:radius="10dp"
-        app:strokeColor="#FF000000"
         app:strokeWidth="2dp" />
 
 </RelativeLayout>
